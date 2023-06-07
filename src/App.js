@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import './style/index.css';
+import StarRating from './components/StarRating';
+//import Star from './components/Star';
+import Dialog from './components/Dialog';
 
 function App() {
+
+  const[rating, setRating] = useState(0);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StarRating 
+        rating={rating}
+        setRating={setRating}
+      />
+      <Dialog />
     </div>
   );
 }
 
 export default App;
+
