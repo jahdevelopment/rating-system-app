@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/rating-system-app/static/css/main.edf544b9.css",
+    "main.js": "/rating-system-app/static/js/main.70eaa202.js",
+    "index.html": "/rating-system-app/index.html",
+    "main.edf544b9.css.map": "/rating-system-app/static/css/main.edf544b9.css.map",
+    "main.70eaa202.js.map": "/rating-system-app/static/js/main.70eaa202.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edf544b9.css",
+    "static/js/main.70eaa202.js"
+  ]
+}
