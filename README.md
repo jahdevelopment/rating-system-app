@@ -1,4 +1,14 @@
-# Getting Started with Create React App
+# Rating System App
+
+This system allows you to make a rate from 1 to 5 using stars, and a button dialogue to reset and start the qualification again.
+
+## Deployed Project
+
+To see the app working online you can go to the next link:
+
+https://jahdevelopment.github.io/rating-system-app/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

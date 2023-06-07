@@ -1,8 +1,6 @@
 import { useState } from 'react';
 import './style/index.css';
 import StarRating from './components/StarRating';
-//import Star from './components/Star';
-import Dialog from './components/Dialog';
 
 function App() {
 
@@ -14,7 +12,6 @@ function App() {
         rating={rating}
         setRating={setRating}
       />
-      <Dialog />
     </div>
   );
 }

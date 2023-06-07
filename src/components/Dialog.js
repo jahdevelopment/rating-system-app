@@ -1,18 +1,13 @@
-import React from 'react'
+import React from "react";
 
-function Dialog() {
+function Dialog({ onClick }) {
   return (
     <>
-      {/* <header className="App-header">
-        <div className="dialog-box">
-          <p>Dialog box</p>
-        </div>
-      </header> */}
-      <footer className='App-footer'>
-        <button className="button-footer">OPEN DIALOG</button>
-      </footer>
+      <button className="button" onClick={onClick}>
+        OPEN DIALOG
+      </button>
     </>
-  )
+  );
 }
 
 export default Dialog;
