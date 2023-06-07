@@ -1,4 +1,4 @@
-# rating-system-app
+# Rating-System-App
 This system allows you to make a rate from 1 to 5 using stars, and a button dialogue to reset and start the qualification again.
 
 ## Deployed Project
